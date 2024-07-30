@@ -49,11 +49,11 @@
                 <!-- Authentication Links -->
                 @guest
                     <li class="">
-                        <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
+                        <a class="nav-link ms-5 pt-5" href="{{ route('login') }}">{{ __('Login') }}</a>
                     </li>
                     @if (Route::has('register'))
                         <li class="">
-                            <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
+                            <a class="nav-link ms-5" href="{{ route('register') }}">{{ __('Register') }}</a>
                         </li>
                     @endif
                 @else

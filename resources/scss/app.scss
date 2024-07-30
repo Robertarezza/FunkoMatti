@@ -20,13 +20,15 @@
 }
 
 .sidebar .close {
-    position: absolute;
-    top: 15px;
-    right: 15px;
-    font-size: 20px;
-    background: none;
-    border: none;
-    cursor: pointer;
+        position: absolute;
+        top: 0px;
+        right: 15px;
+        font-size: 20px;
+        background: none;
+        border: none;
+        cursor: pointer;
+        /* width: 20%; */
+        font-size: 27px;
 }
 
 .sidebar ul {
